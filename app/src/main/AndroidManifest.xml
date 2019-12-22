@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.iteyes.placesproject">
+    package="com.iteyes.amit">
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
@@ -19,7 +19,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_api" />
 
-        <activity android:name=".PermissionsActivity">
+        <activity android:name="com.iteyes.amit.PermissionsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -27,13 +27,13 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MapActivity"
+            android:name="com.iteyes.amit.MapActivity"
             android:label="@string/title_activity_map"
             android:theme="@style/AppTheme.NoActionBar">
 
 
         </activity>
-        <activity android:name=".MainActivity" />
+
     </application>
 
 </manifest>

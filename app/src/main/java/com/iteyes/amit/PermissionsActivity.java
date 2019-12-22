@@ -1,4 +1,4 @@
-package com.iteyes.placesproject;
+package com.iteyes.amit;
 
 import android.Manifest;
 import android.content.DialogInterface;

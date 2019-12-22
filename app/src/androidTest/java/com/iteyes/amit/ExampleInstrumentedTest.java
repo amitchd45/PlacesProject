@@ -1,4 +1,4 @@
-package com.iteyes.placesproject;
+package com.iteyes.amit;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

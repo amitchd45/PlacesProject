@@ -7,9 +7,6 @@
     tools:context=".MapActivity">
 
 
-
     <include layout="@layout/content_map" />
-
-
 
 </android.support.design.widget.CoordinatorLayout>
